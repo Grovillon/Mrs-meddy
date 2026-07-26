@@ -5,11 +5,11 @@ import Image from "next/image";
 import {
   motion,
   useReducedMotion,
-  useScroll,
   useTransform,
   type MotionValue,
 } from "framer-motion";
 import { Container } from "@/components/ui/container";
+import { useScrollProgress } from "@/lib/use-scroll-progress";
 
 const LINE_1 = "Round and round the whisk goes.";
 const LINE_2 = "The same way it always has.";
@@ -69,17 +69,14 @@ export function StirStory() {
   const ref = useRef<HTMLDivElement>(null);
   const prefersReducedMotion = useReducedMotion();
 
-  const { scrollYProgress } = useScroll({
-    target: ref,
-    offset: ["start start", "end end"],
-  });
+  const scrollYProgress = useScrollProgress(ref);
 
   const whiskRotate = useTransform(scrollYProgress, [0, 1], [0, 900]);
   const batterRotate = useTransform(scrollYProgress, [0, 1], [0, -720]);
 
   const line1Opacity = useTransform(scrollYProgress, [0, 0.06, 0.24, 0.3], [0, 1, 1, 0]);
   const line2Opacity = useTransform(scrollYProgress, [0.32, 0.38, 0.56, 0.62], [0, 1, 1, 0]);
-  const line3Opacity = useTransform(scrollYProgress, [0.64, 0.7, 0.94, 1], [0, 1, 1, 0]);
+  const line3Opacity = useTransform(scrollYProgress, [0.64, 0.7], [0, 1]);
 
   if (prefersReducedMotion) {
     return (
