@@ -19,10 +19,10 @@ export function Newsletter() {
   return (
     <section className="py-20 sm:py-28">
       <Container>
-        <div className="relative overflow-hidden rounded-4xl bg-pastel-yellow px-6 py-14 sm:px-14 sm:py-16">
+        <div className="relative overflow-hidden rounded-4xl bg-pastel-pink px-6 py-14 sm:px-14 sm:py-16">
           <div className="grid items-center gap-10 lg:grid-cols-[1fr_auto] lg:gap-16">
             <div className="max-w-lg">
-              <span className="text-xs font-semibold uppercase tracking-[0.22em] text-pastel-yellow-deep">
+              <span className="text-xs font-semibold uppercase tracking-[0.22em] text-pastel-pink-deep">
                 Never miss a Sunday
               </span>
               <h2 className="mt-3 font-display text-balance text-3xl leading-[1.1] text-ink sm:text-4xl">

@@ -9,7 +9,7 @@ const base =
 
 const variants = {
   primary: "bg-ink text-cream hover:bg-ink/90",
-  secondary: "bg-white text-ink hover:bg-pastel-yellow/60 soft-shadow",
+  secondary: "bg-white text-ink hover:bg-pastel-pink/50 soft-shadow",
   outline: "border border-ink/15 text-ink hover:bg-white",
   ghost: "text-ink hover:bg-white/60",
 };

@@ -18,17 +18,17 @@ export function Hero() {
       {/* Background blobs */}
       <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
         <motion.div
-          className="absolute -left-24 top-10 h-72 w-72 rounded-full bg-pastel-blue/60 blur-3xl"
+          className="absolute -left-24 top-10 h-72 w-72 rounded-full bg-pastel-blue/50 blur-3xl"
           animate={{ y: [0, 24, 0], x: [0, 12, 0] }}
           transition={{ duration: 14, repeat: Infinity, ease: "easeInOut" }}
         />
         <motion.div
-          className="absolute right-0 top-40 h-80 w-80 rounded-full bg-pastel-pink/60 blur-3xl"
+          className="absolute right-0 top-32 h-[26rem] w-[26rem] rounded-full bg-pastel-pink/70 blur-3xl"
           animate={{ y: [0, -20, 0], x: [0, -16, 0] }}
           transition={{ duration: 16, repeat: Infinity, ease: "easeInOut" }}
         />
         <motion.div
-          className="absolute left-1/3 bottom-0 h-72 w-72 rounded-full bg-pastel-yellow/70 blur-3xl"
+          className="absolute left-1/3 bottom-0 h-64 w-64 rounded-full bg-pastel-yellow/40 blur-3xl"
           animate={{ y: [0, 18, 0] }}
           transition={{ duration: 12, repeat: Infinity, ease: "easeInOut" }}
         />
@@ -104,7 +104,7 @@ export function Hero() {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.15, ease: [0.22, 1, 0.36, 1] }}
-          className="relative mx-auto flex justify-center lg:justify-end"
+          className="relative flex justify-center lg:justify-end"
         >
           <Mascot size={480} />
         </motion.div>

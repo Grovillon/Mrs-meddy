@@ -17,7 +17,7 @@ export function Testimonials() {
       <Container>
         <SectionHeading
           eyebrow="From the table"
-          eyebrowColor="yellow"
+          eyebrowColor="pink"
           align="center"
           title="What people feel, not just taste"
           className="mx-auto items-center text-center"

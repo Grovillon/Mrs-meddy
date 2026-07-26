@@ -76,7 +76,9 @@ export function PreOrderForm() {
         animate={{ opacity: 1, y: 0 }}
         className="flex flex-col items-center gap-6 rounded-4xl bg-white p-10 text-center soft-shadow-lg sm:p-16"
       >
-        <Mascot size={200} interactive={false} priority={false} />
+        <div className="flex w-full justify-center">
+          <Mascot size={200} interactive={false} priority={false} />
+        </div>
         <span className="flex items-center gap-2 text-pastel-green-deep">
           <CheckCircle2 size={22} />
           <span className="font-semibold">Pre-order received</span>

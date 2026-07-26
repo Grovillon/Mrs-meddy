@@ -4,6 +4,7 @@ import { Categories } from "@/components/home/categories";
 import { FamilyMealsSection } from "@/components/home/family-meals-section";
 import { AboutTeaser } from "@/components/home/about-teaser";
 import { WhyMrsMeddy } from "@/components/home/why-mrs-meddy";
+import { StirStory } from "@/components/home/stir-story";
 import { WeeklyMenuSection } from "@/components/home/weekly-menu-section";
 import { PreorderTeaser } from "@/components/home/preorder-teaser";
 import { Testimonials } from "@/components/home/testimonials";
@@ -18,6 +19,7 @@ export default function Home() {
       <FamilyMealsSection />
       <AboutTeaser />
       <WhyMrsMeddy />
+      <StirStory />
       <WeeklyMenuSection />
       <PreorderTeaser />
       <Testimonials />

@@ -110,7 +110,7 @@ export function Mascot({
       onMouseLeave={handleMouseLeave}
     >
       {/* Ambient glow */}
-      <div className="absolute inset-[6%] rounded-full bg-gradient-to-br from-pastel-yellow via-pastel-pink/70 to-pastel-blue/70 blur-2xl opacity-70" />
+      <div className="absolute inset-[6%] rounded-full bg-gradient-to-br from-pastel-pink via-pastel-yellow/60 to-pastel-blue/70 blur-2xl opacity-70" />
 
       <motion.div
         className="absolute inset-0"

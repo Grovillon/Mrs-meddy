@@ -15,7 +15,7 @@ export function FamilyMealsSection() {
           <div className="flex flex-col items-start gap-6 lg:flex-row lg:items-end lg:justify-between">
             <SectionHeading
               eyebrow="For the whole table"
-              eyebrowColor="yellow"
+              eyebrowColor="pink"
               title={
                 <span className="text-cream">
                   Big trays, made for sharing

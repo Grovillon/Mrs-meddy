@@ -6,7 +6,7 @@ export function PageHero({
   eyebrow,
   title,
   description,
-  color = "yellow",
+  color = "pink",
   children,
 }: {
   eyebrow: string;

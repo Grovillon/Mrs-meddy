@@ -27,7 +27,7 @@ export default function FaqPage() {
 
           <Reveal
             delay={0.1}
-            className="mt-12 flex flex-col items-center gap-4 rounded-4xl bg-pastel-yellow/50 p-10 text-center"
+            className="mt-12 flex flex-col items-center gap-4 rounded-4xl bg-pastel-pink/50 p-10 text-center"
           >
             <h2 className="font-display text-2xl text-ink">
               Still have a question?

@@ -81,7 +81,7 @@ export function Header() {
                 {active && (
                   <motion.span
                     layoutId="nav-active"
-                    className="absolute inset-x-3 -bottom-0.5 h-[2px] rounded-full bg-pastel-yellow-deep"
+                    className="absolute inset-x-3 -bottom-0.5 h-[2px] rounded-full bg-pastel-pink-deep"
                   />
                 )}
               </Link>

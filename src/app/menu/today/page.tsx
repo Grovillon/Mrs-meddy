@@ -51,7 +51,7 @@ export default function TodaysMenuPage() {
     <>
       <PageHero
         eyebrow={today.day}
-        color="yellow"
+        color="pink"
         title="Today's menu, cooked this morning"
         description={
           today.note ??

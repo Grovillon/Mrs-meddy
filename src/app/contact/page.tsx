@@ -18,7 +18,7 @@ export default function ContactPage() {
     <>
       <PageHero
         eyebrow="Say hello"
-        color="yellow"
+        color="pink"
         title="We'd love to hear from you"
         description="Questions about an order, catering for an event, or just want to say the moussaka was good — we're listening."
       />
